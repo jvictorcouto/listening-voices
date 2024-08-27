@@ -28,5 +28,4 @@ Study subject queue:
 - Cloud and cloud security (this topic will be the basic of cloud that free tier allow, here we will made a little website and show to the world wide web or setup our dns server)
 - GRC, audit, laws and ISOs (a overview about this topics is so much important why we ever will dealing with another people data)
 - Technical Writing (this topic can be boring, but we need know how to speak everything we learned so far for non technical people, usually this people can fire us)
-
-  I don't know how much time i'll need to cover all this topics, but i know the next step. I'll start learn how to smash all this progress with red team tools and i'll documentate all the process here.
+  ...
