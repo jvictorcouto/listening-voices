@@ -1,0 +1,6 @@
+Hello World!
+
+Here i am, starting my studies repository thats will get me living in US!
+
+
+This commit has been done following the steps proposed by the first video you can see at git.txt.

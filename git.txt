@@ -1,0 +1,18 @@
+Watch: https://www.youtube.com/watch?v=l2yrJtwoC_E
+Install Git: https://git-scm.com/downloads
+
+Follow the video steps we be able to connect with our project.
+
+Here is my input history to do my first commit:
+
+    1  git clone https://github.com/jvictorcouto/listening-voices.git -> clone to download the files
+    2  git status -> after edit files at local machine we can see alterations with this input
+    3  git add proxmox.txt -> i made my proxmox documentation file at my local machine
+    4  git status -> git status is usefull to monitor repository state, working directory alterations, commit ready files or staged files, untracked files, we need to use git add to track that files, we can see where what branch we are editing, exhib the branch status too, we can see if any commit need to be pushed ou pulled	
+    5  git commit -m "Proxmox commit" -> git commit save changes in local repository, takes a snapshot of all the files that have been staged with git add and saves that snapshot to the local repository
+    6  git status
+    7  git config --global --edit -> open the configuration file, here we can change name and e-mail settings, and so many other settings, like text editor, alias settings, etc
+    8  git commit -m "Proxmox commit"
+    9  git log --all --decorate --oneline --graph -> git log displays the commit history of the repository, --all shows the commit history of all branches, --decorate adds branch names, tags, and other references to the commit logs. This helps identify where branches and tags are pointing in the commit history and --graph displays an ASCII graph of the branch structure on the left side of the output. This visually represents the relationships between commits, such as merges and branches, making it easier to understand the commit history.
+    10  git push origin
+    11  history
