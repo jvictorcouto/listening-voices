@@ -1,0 +1,57 @@
+Well, now i'll show how we suposed to do in a normal day, syncing our local repository with github server repository.
+
+
+    Starting the day, getting updates
+
+Check current branch
+    git branch
+
+Change branch if necessary
+    git checkout branch-name
+
+Update local repository
+    git pull origin branch-name
+
+Finishing the merge:
+    git add .
+    git commit
+
+
+
+    Undo updates
+
+If you don't commit yet
+    git merge --abort
+
+Undo committed merge
+    git reset --hard HEAD~1
+                                --hard discards all non committed changes, be careful
+
+Undo non committed changes
+    git checkout -- .
+
+Remove index changes
+    git reset
+
+
+
+    Uploading changes
+
+Check all directory changes
+    git add .
+
+Adding new files
+    git add file-name
+
+Committing all changes 
+    git commit -m "Commit message"
+
+Sending changes to server
+    git push origin branch-name
+
+If you are in the branch that is tracking the remote branch
+    git push
+
+Maybe change the server can be necessary
+    git remote add new-origin https://newgitserver.url
+
