@@ -12,7 +12,7 @@ Change branch if necessary
 Update local repository
     git pull origin branch-name
 
-Finishing the merge:
+Finishing the merge: 
     git add .
     git commit
 
@@ -37,7 +37,7 @@ Remove index changes
 
     Uploading changes
 
-Check all directory changes
+Add all changes to index
     git add .
 
 Adding new files
@@ -45,6 +45,9 @@ Adding new files
 
 Committing all changes 
     git commit -m "Commit message"
+
+Or we just can do add and commit with
+    git commit -a -m "Commit message"
 
 Sending changes to server
     git push origin branch-name
