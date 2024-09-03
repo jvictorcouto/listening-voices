@@ -58,3 +58,30 @@ If you are in the branch that is tracking the remote branch
 Maybe change the server can be necessary
     git remote add new-origin https://newgitserver.url
 
+
+	Dealing with branchs
+	
+	Branchs are timelines, with branchs we can do changes, test everything safely
+	
+See current branch
+	git status
+	
+See current and all branchs
+	git branch
+	
+Create new branch
+	git branch branch-name
+	
+Change branch
+	git checkout branch-name
+	
+Delete branchs without pending commits
+	git branch -d branch-name
+	
+Force branch delete
+	git branch -D branch-name
+
+To add the contents of a branch to the current branch, it only work this way
+	git branch -> check current branch
+	git checkout branch-name -> go to current will receive changes
+	git merge branch-name -> to merge the entered branch into the current branch
