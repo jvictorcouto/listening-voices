@@ -1,0 +1,7 @@
+A good start if you never heard about docker:
+
+https://www.youtube.com/watch?v=pg19Z8LL06w
+
+This content cover all the major points about Docker and give a great help in first steps.
+
+Get used to the terminal even though the docker ui client or portainer be comfortable, terminal is most efficient.
