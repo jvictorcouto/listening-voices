@@ -1,0 +1,11 @@
+Hi there!
+
+I'll start bash scrips right now why i have a job to do until october!
+
+I'll write scripts for anything that ChatGPT tells me to write!
+
+chatgpt.com Top 20 scripts to training shell habilities
+
+Hello World
+
+A simple script that prints "Hello, World" to the console.
